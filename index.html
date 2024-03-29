@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Helium</title>
   </head>
   <body>
-    <header>
+    <header class="header-container">
       <nav>
-        <span id="logo">Helium</span>
+        <a class="logo" href="index.html">Helium</a>
         <ul>
           <li>5G</li>
           <li>Explorer</li>
@@ -16,11 +17,11 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="header-left">
-        <div class="container-header-left">
+    <main class="main">
+      <div class="main-left">
+        <div class="container-main-left">
           <h1>People-Powered Networks</h1>
-          <span>Start a Wireless Revolution</span>
+          <span class="subtitle">Start a Wireless Revolution</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
             blanditiis totam modi corrupti. Ea aliquam dolore doloribus
@@ -28,11 +29,11 @@
           </p>
         </div>
       </div>
-      <div class="header-right">
+      <div class="main-right">
         <img
-          src="/img/main.png"
-          alt="Différents modèles de batterie"
-          width="100px"
+          id="baterry"
+          src="/img/baterry.png"
+          alt="Différents modèles de batteries"
         />
       </div>
     </main>
@@ -40,17 +41,19 @@
       <div class="infos-left">
         <h2>Core Technologies</h2>
         <div class="btn-infos">
-          <button class="btn">Tokens</button>
-          <button class="btn">Proof of Coverage</button>
-          <button class="btn">LongFi</button>
+          <button>Tokens</button>
+          <button>Proof of Coverage</button>
+          <button>LongFi</button>
         </div>
       </div>
       <div class="infos-right">
         <h2>Our Investors</h2>
-        <div class="img">
-          <img src="/img/investlogo2blue.png" alt="Logo GV" />
-          <img src="/img/investlogo3blue.png" alt="Logo Firstmark" />
-          <img src="/img/investlogo4blue.png" alt="Logo Khoslaventures" />
+        <div class="investors">
+          <div class="img-footer">
+            <img src="/img/investor-gv.png" alt="Logo GV" />
+            <img src="/img/investor-firstmark.png" alt="Logo Firstmark" />
+            <img src="/img/investor-khoslaventures.png" alt="Logo Khoslaventures" />
+          </div>
         </div>
       </div>
     </footer>
